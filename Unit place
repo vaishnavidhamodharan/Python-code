@@ -1,0 +1,11 @@
+n=93662
+result=0
+place=1
+while n>0:
+    d=n%10
+    if d!=6:
+        result=result+d*place
+        place=place*10
+    n=n//10
+print(result)
+    
